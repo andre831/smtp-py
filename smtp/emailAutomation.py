@@ -138,7 +138,7 @@ class EmailAutomation(object):
                                                                 <tbody>
                                                                     <tr>
                                                                         <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #ffb800; border-radius: 5px; text-align: center;">
-                                                                            <a href="https://github.com/andre831/automation-server" target="_blank" style="display: inline-block; color: #ffffff; background-color: #ffb800; border: solid 1px transparent; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize;">
+                                                                            <a href="https://github.com/andre831/upserver-py" target="_blank" style="display: inline-block; color: #ffffff; background-color: #ffb800; border: solid 1px transparent; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize;">
                                                                                 See project in GitHub
                                                                             </a>
                                                                         </td>
