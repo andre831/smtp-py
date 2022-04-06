@@ -1,8 +1,8 @@
 FROM python:3.8-alpine
 
-RUN python3 -m venv /opt/venv
+RUN python3 -m venv {PWD}/opt/venv
 
-RUN . /opt/venv/bin/activate
+RUN . {PWD}/opt/venv/bin/activate
 
 COPY . .
 
