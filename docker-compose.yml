@@ -5,3 +5,15 @@ services:
       - "3000:3000"
   smtp:
     build: ./smtp/
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:14.2-alpine
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=upserveradmin
+      - POSTGRES_DB=admin
+    ports:
+      - '5432:5432'
+  
